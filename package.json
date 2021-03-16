@@ -1,7 +1,7 @@
 {
   "name": "react-components-typescript-npm-starter",
   "version": "1.0.0",
-  "description": "TODO",
+  "description": "Template for React TypeScript Component library",
   "author": "Jakub Biesiada",
   "license": "MIT",
   "main": "lib/react-components-typescript-npm-starter.cjs.js",

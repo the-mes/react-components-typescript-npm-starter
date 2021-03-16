@@ -9,6 +9,8 @@
 
 ## About
 
+Template for React TypeScript Component library
+
 ### Alternatives
 
 <!-- TODO -->
