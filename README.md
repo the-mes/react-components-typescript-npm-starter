@@ -1,19 +1,18 @@
-# [fluentui-react-grid](https://github.com/JB1905/fluentui-react-grid)
+# [React Components TypeScript npm Starter](https://github.com/the-mes/react-components-typescript-npm-starter)
 
-[![NPM version](https://img.shields.io/npm/v/fluentui-react-grid?style=flat-square)](https://www.npmjs.com/package/fluentui-react-grid)
-[![NPM downloads](https://img.shields.io/npm/dm/fluentui-react-grid?style=flat-square)](https://www.npmjs.com/package/fluentui-react-grid)
-[![NPM license](https://img.shields.io/npm/l/fluentui-react-grid?style=flat-square)](https://www.npmjs.com/package/fluentui-react-grid)
-[![Codecov](https://img.shields.io/codecov/c/github/JB1905/fluentui-react-grid?style=flat-square)](https://codecov.io/gh/JB1905/fluentui-react-grid)
-[![Travis](https://img.shields.io/travis/JB1905/fluentui-react-grid/master?style=flat-square)](https://travis-ci.org/JB1905/fluentui-react-grid)
-[![Bundle size](https://img.shields.io/bundlephobia/min/fluentui-react-grid?style=flat-square)](https://bundlephobia.com/result?p=fluentui-react-grid)
+[![NPM version](https://img.shields.io/npm/v/react-components-typescript-npm-starter?style=flat-square)](https://www.npmjs.com/package/react-components-typescript-npm-starter)
+[![NPM downloads](https://img.shields.io/npm/dm/react-components-typescript-npm-starter?style=flat-square)](https://www.npmjs.com/package/react-components-typescript-npm-starter)
+[![NPM license](https://img.shields.io/npm/l/react-components-typescript-npm-starter?style=flat-square)](https://www.npmjs.com/package/react-components-typescript-npm-starter)
+[![Codecov](https://img.shields.io/codecov/c/github/the-mes/react-components-typescript-npm-starter?style=flat-square)](https://codecov.io/gh/the-mes/react-components-typescript-npm-starter)
+[![Travis](https://img.shields.io/travis/the-mes/react-components-typescript-npm-starter/master?style=flat-square)](https://travis-ci.org/the-mes/react-components-typescript-npm-starter)
+[![Bundle size](https://img.shields.io/bundlephobia/min/react-components-typescript-npm-starter?style=flat-square)](https://bundlephobia.com/result?p=react-components-typescript-npm-starter)
 
 ## About
 
-React components for Fluent UI layout styles
-
 ### Alternatives
 
-- [Fluent UI styles](https://developer.microsoft.com/en-us/fluentui#/styles/web/layout)
+<!-- TODO -->
+<!-- - [Fluent UI styles](https://developer.microsoft.com/en-us/fluentui#/styles/web/layout) -->
 
 ## Contents
 
@@ -27,29 +26,20 @@ React components for Fluent UI layout styles
 
 ## Demo
 
-[**Playground – play with library in Storybook**](https://jb1905.github.io/fluentui-react-grid/)
+[**Playground – play with library in Storybook**](https://the-mes.github.io/react-components-typescript-npm-starter/)
 
 ## How to Install
 
 First, install the library in your project by npm:
 
 ```sh
-$ npm install fluentui-react-grid
+$ npm install react-components-typescript-npm-starter
 ```
 
 Or Yarn:
 
 ```sh
-$ yarn add fluentui-react-grid
-```
-
-You also need to include CSS styles (in HTML head section e.g.: in index.html file):
-
-```html
-<link
-  rel="stylesheet"
-  href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/11.0.0/css/fabric.min.css"
-/>
+$ yarn add react-components-typescript-npm-starter
 ```
 
 ## Getting Started
@@ -57,7 +47,7 @@ You also need to include CSS styles (in HTML head section e.g.: in index.html fi
 **Import `Grid` and use as Compound Component:**
 
 ```jsx
-import { Grid } from 'fluentui-react-grid';
+import { Grid } from 'react-components-typescript-npm-starter';
 
 ...
 
@@ -75,7 +65,7 @@ import { Grid } from 'fluentui-react-grid';
 **Or import all components:**
 
 ```jsx
-import { Grid, Row, Col } from 'fluentui-react-grid';
+import { Grid, Row, Col } from 'react-components-typescript-npm-starter';
 
 ...
 
@@ -229,4 +219,4 @@ _You need to specify grid order for correct positioning. Add `dir="ltr"` – (or
 
 ## License
 
-This project is licensed under the MIT License © 2020-present Jakub Biesiada
+This project is licensed under the MIT License © 2021-present Jakub Biesiada

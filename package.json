@@ -1,11 +1,11 @@
 {
-  "name": "fluentui-react-grid",
+  "name": "react-components-typescript-npm-starter",
   "version": "1.0.0",
-  "description": "React components for Fluent UI layout styles",
+  "description": "TODO",
   "author": "Jakub Biesiada",
   "license": "MIT",
-  "main": "lib/fluentui-react-grid.cjs.js",
-  "module": "lib/fluentui-react-grid.esm.js",
+  "main": "lib/react-components-typescript-npm-starter.cjs.js",
+  "module": "lib/react-components-typescript-npm-starter.esm.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "prepack": "npm run clean && npm run prettier && npm run lint && npm run build",
@@ -24,23 +24,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/JB1905/fluentui-react-grid.git"
+    "url": "https://github.com/the-mes/react-components-typescript-npm-starter.git"
   },
   "keywords": [
-    "grid",
-    "row",
-    "col",
-    "react",
-    "components",
-    "fluent",
-    "microsoft",
-    "styles",
-    "layout"
+    "TODO"
   ],
   "bugs": {
-    "url": "https://github.com/JB1905/fluentui-react-grid/issues"
+    "url": "https://github.com/the-mes/react-components-typescript-npm-starter/issues"
   },
-  "homepage": "https://github.com/JB1905/fluentui-react-grid#readme",
+  "homepage": "https://github.com/the-mes/react-components-typescript-npm-starter#readme",
   "dependencies": {
     "clsx": "^1.1.1"
   },

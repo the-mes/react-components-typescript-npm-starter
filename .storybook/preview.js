@@ -18,17 +18,17 @@ export const parameters = {
 };
 
 addDecorator((Story) => (
-  <div
-    style={{
-      width: '100vw',
-      minHeight: '100vh',
-      margin: '0 auto',
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-      textAlign: 'center',
-    }}
-  >
+  // <div
+  //   style={{
+  //     width: '100vw',
+  //     minHeight: '100vh',
+  //     margin: '0 auto',
+  //     display: 'flex',
+  //     alignItems: 'center',
+  //     justifyContent: 'center',
+  //     textAlign: 'center',
+  //   }}
+  // >
     <Story />
-  </div>
+  // </div>
 ));

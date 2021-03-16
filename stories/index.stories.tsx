@@ -2,31 +2,22 @@ import React from 'react';
 import { Meta, Story } from '@storybook/react';
 import { styled } from '@storybook/theming';
 
-import { Grid, Row, Col } from '../src';
-
-type Dir = 'ltr' | 'rtl';
-
-interface Props {
-  readonly dir: Dir;
-}
-
 export default {
-  title: 'Grid',
-  component: Grid,
+  title: '',
+  component: null,
   argTypes: {
-    dir: {
-      control: {
-        type: 'inline-radio',
-        options: ['ltr', 'rtl'],
-      },
-    },
+    // TODO
+    // dir: {
+    //   control: {
+    //     type: 'inline-radio',
+    //     options: ['ltr', 'rtl'],
+    //   },
+    // },
   },
   args: {
-    dir: 'ltr',
+    // example: true
   },
 } as Meta;
-
-const style = { width: '100%' };
 
 const DemoBlock = styled.div`
   background-color: #a19f9d;
@@ -38,82 +29,12 @@ const DemoBlock = styled.div`
   text-align: center;
 `;
 
-export const Basics: Story<Props> = ({ dir }) => (
-  <Grid style={style} dir={dir}>
-    <Grid.Row>
-      <Grid.Col sizeSm="6" sizeMd={4} sizeLg={2}>
-        <DemoBlock>A</DemoBlock>
-      </Grid.Col>
+export const ExampleStory: Story<Props> = ({ dir }) => <DemoBlock></DemoBlock>;
 
-      <Grid.Col sizeSm={6} sizeMd="8" sizeLg={10}>
-        <DemoBlock>B</DemoBlock>
-      </Grid.Col>
-    </Grid.Row>
-  </Grid>
-);
+ExampleStory.storyName = 'Example Story';
 
-export const Inheritance: Story<Props> = ({ dir }) => (
-  <Grid style={style} dir={dir}>
-    <Grid.Row>
-      <Grid.Col sizeSm={12} sizeLg="4">
-        <DemoBlock>Example</DemoBlock>
-      </Grid.Col>
-    </Grid.Row>
-  </Grid>
-);
-
-export const PushAndPull: Story<Props> = ({ dir }) => (
-  <Grid style={style} dir={dir}>
-    <Grid.Row>
-      <Grid.Col sizeSm={4} smPush="8">
-        <DemoBlock>First in code</DemoBlock>
-      </Grid.Col>
-
-      <Grid.Col sizeSm={8} smPull={4}>
-        <DemoBlock>Second in code</DemoBlock>
-      </Grid.Col>
-    </Grid.Row>
-  </Grid>
-);
-
-PushAndPull.storyName = 'Push and pull';
-
-export const Visibility: Story<Props> = () => (
-  <Grid style={style} dir="ltr">
-    <Grid.Row>
-      <Grid.Col sizeSm={12} hiddenXxlUp>
-        <DemoBlock>Visible on smaller screens</DemoBlock>
-      </Grid.Col>
-
-      <Grid.Col sizeSm="12" hiddenXlDown>
-        <DemoBlock>Visible on larger screens</DemoBlock>
-      </Grid.Col>
-    </Grid.Row>
-  </Grid>
-);
-
-Visibility.parameters = {
+ExampleStory.parameters = {
   controls: {
-    disabled: true,
-  },
-};
-
-export const WithoutCompoundComponents: Story<Props> = () => (
-  <Grid style={style} dir="ltr">
-    <Row>
-      <Col sizeSm="6" sizeMd={4} sizeLg={2}>
-        <DemoBlock>A</DemoBlock>
-      </Col>
-
-      <Col sizeSm={6} sizeMd="8" sizeLg={10}>
-        <DemoBlock>B</DemoBlock>
-      </Col>
-    </Row>
-  </Grid>
-);
-
-WithoutCompoundComponents.parameters = {
-  controls: {
-    disabled: true,
+    // disabled: true,
   },
 };

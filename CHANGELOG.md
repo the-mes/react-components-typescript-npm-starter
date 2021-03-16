@@ -1,7 +1,9 @@
-# fluentui-react-grid Changelog
+# React Components TypeScript npm Starter Changelog
 
-## 1.0.0 (2020-11-16)
+## 1.0.0 (2020-02-02)
 
 #### New Feature
 
-- added `Grid`, `Row` & `Col` components
+<!-- TODO -->
+
+- added `, ` & `` components
