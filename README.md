@@ -1,4 +1,4 @@
-# [React Components TypeScript npm Starter](https://github.com/the-mes/react-components-typescript-npm-starter)
+# [React Components TypeScript npm Starter](https://github.com/the-mes/react-components-typescript-npm-starter) WIP
 
 [![NPM version](https://img.shields.io/npm/v/react-components-typescript-npm-starter?style=flat-square)](https://www.npmjs.com/package/react-components-typescript-npm-starter)
 [![NPM downloads](https://img.shields.io/npm/dm/react-components-typescript-npm-starter?style=flat-square)](https://www.npmjs.com/package/react-components-typescript-npm-starter)
