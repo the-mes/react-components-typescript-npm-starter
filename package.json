@@ -93,9 +93,11 @@
     }
   },
   "lint-staged": {
-    "src/**/*.{tsx,ts}": [
-      "npm run prettier",
+    "*.{js,ts,tsx}": [
       "npm run lint"
+    ],
+    "*.{css,scss,json,md,html,yml}": [
+      "prettier --write"
     ]
   }
 }
