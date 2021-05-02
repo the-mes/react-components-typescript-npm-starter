@@ -28,7 +28,13 @@
     "url": "https://github.com/the-mes/react-components-typescript-npm-starter.git"
   },
   "keywords": [
-    "TODO"
+    "react",
+    "npm",
+    "boilerplate",
+    "library",
+    "typescript",
+    "component",
+    "starter"
   ],
   "bugs": {
     "url": "https://github.com/the-mes/react-components-typescript-npm-starter/issues"
