@@ -37,6 +37,8 @@
     "clsx": "^1.1.1"
   },
   "devDependencies": {
+    "@commitlint/cli": "^12.1.1",
+    "@commitlint/config-conventional": "^12.1.1",
     "@rollup/plugin-node-resolve": "^11.0.1",
     "@storybook/addon-controls": "^6.1.11",
     "@storybook/addon-docs": "^6.1.11",
@@ -90,7 +92,8 @@
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
-      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
   "lint-staged": {
