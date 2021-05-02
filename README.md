@@ -4,7 +4,7 @@
 [![NPM downloads](https://img.shields.io/npm/dm/react-components-typescript-npm-starter?style=flat-square)](https://www.npmjs.com/package/react-components-typescript-npm-starter)
 [![NPM license](https://img.shields.io/npm/l/react-components-typescript-npm-starter?style=flat-square)](https://www.npmjs.com/package/react-components-typescript-npm-starter)
 [![Codecov](https://img.shields.io/codecov/c/github/the-mes/react-components-typescript-npm-starter?style=flat-square)](https://codecov.io/gh/the-mes/react-components-typescript-npm-starter)
-[![Travis](https://img.shields.io/travis/the-mes/react-components-typescript-npm-starter/master?style=flat-square)](https://travis-ci.org/the-mes/react-components-typescript-npm-starter)
+[![Travis](https://img.shields.io/travis/com/the-mes/react-components-typescript-npm-starter/master?style=flat-square)](https://travis-ci.com/the-mes/react-components-typescript-npm-starter)
 [![Bundle size](https://img.shields.io/bundlephobia/min/react-components-typescript-npm-starter?style=flat-square)](https://bundlephobia.com/result?p=react-components-typescript-npm-starter)
 
 ## About
