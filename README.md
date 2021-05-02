@@ -1,4 +1,4 @@
-# [React Components TypeScript npm Starter](https://github.com/the-mes/react-components-typescript-npm-starter) WIP
+# [React Components TypeScript npm Starter](https://github.com/the-mes/react-components-typescript-npm-starter) (WIP)
 
 [![NPM version](https://img.shields.io/npm/v/react-components-typescript-npm-starter?style=flat-square)](https://www.npmjs.com/package/react-components-typescript-npm-starter)
 [![NPM downloads](https://img.shields.io/npm/dm/react-components-typescript-npm-starter?style=flat-square)](https://www.npmjs.com/package/react-components-typescript-npm-starter)
@@ -18,17 +18,17 @@ Template for React TypeScript Component library
 
 ## Contents
 
-- [Demo](#demo)
+<!-- - [Demo](#demo)
 - [How to Install](#how-to-install)
 - [Components](#components)
   - [Grid](#grid)
   - [Row](#row)
   - [Col](#col)
-- [Example](#example)
+- [Example](#example) -->
 
 ## Demo
 
-[**Playground – play with library in Storybook**](https://the-mes.github.io/react-components-typescript-npm-starter/)
+<!-- [**Playground – play with library in Storybook**](https://the-mes.github.io/react-components-typescript-npm-starter/) -->
 
 ## How to Install
 
@@ -46,9 +46,9 @@ $ yarn add react-components-typescript-npm-starter
 
 ## Getting Started
 
-**Import `Grid` and use as Compound Component:**
+<!-- **Import `Grid` and use as Compound Component:** -->
 
-```jsx
+<!-- ```jsx
 import { Grid } from 'react-components-typescript-npm-starter';
 
 ...
@@ -62,11 +62,11 @@ import { Grid } from 'react-components-typescript-npm-starter';
 </Grid>
 
 ...
-```
+``` -->
 
-**Or import all components:**
+<!-- **Or import all components:** -->
 
-```jsx
+<!-- ```jsx
 import { Grid, Row, Col } from 'react-components-typescript-npm-starter';
 
 ...
@@ -80,11 +80,11 @@ import { Grid, Row, Col } from 'react-components-typescript-npm-starter';
 </Grid>
 
 ...
-```
+``` -->
 
 ## Components
 
-### Grid
+<!-- ### Grid
 
 #### Available options
 
@@ -139,11 +139,11 @@ _You need to specify grid order for correct positioning. Add `dir="ltr"` – (or
 | `hiddenXxl`     | boolean                         |
 | `hiddenXxlDown` | boolean                         |
 | `hiddenXxlUp`   | boolean                         |
-| `hiddenXxxl`    | boolean                         |
+| `hiddenXxxl`    | boolean                         | -->
 
 ## Example
 
-### Basics
+<!-- ### Basics
 
 ```jsx
 <Grid dir="ltr">
@@ -217,7 +217,7 @@ _You need to specify grid order for correct positioning. Add `dir="ltr"` – (or
     </Col>
   </Row>
 </Grid>
-```
+``` -->
 
 ## License
 
