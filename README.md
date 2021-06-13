@@ -13,7 +13,8 @@ Template for React TypeScript Component library
 
 ### Alternatives
 
-- [Example Library](https://example.com/)
+- [example](#) by [John Doe](#)
+- [example-2](#) by [Jane Doe](#)
 
 ## Contents
 
@@ -25,7 +26,7 @@ Template for React TypeScript Component library
 
 ## Demo
 
-[**Playground – play with library in Storybook**](https://the-mes.github.io/react-components-typescript-npm-starter/)
+[**Playground – play with library in Storybook**](#)
 
 ## How to Install
 
