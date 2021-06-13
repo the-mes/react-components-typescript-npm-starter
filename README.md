@@ -33,13 +33,13 @@ Template for React TypeScript Component library
 First, install the library in your project by npm:
 
 ```sh
-$ npm install react-components-typescript-npm-starter
+npm install react-components-typescript-npm-starter
 ```
 
 Or Yarn:
 
 ```sh
-$ yarn add react-components-typescript-npm-starter
+yarn add react-components-typescript-npm-starter
 ```
 
 ## Getting Started
