@@ -1,3 +1,9 @@
 import React from 'react';
 
-export const HelloWorld = () => <p>Hello World!</p>;
+export interface HelloWorldProps {
+  readonly text?: string;
+}
+
+export const HelloWorld = ({ text = 'Hello World!' }: HelloWorldProps) => (
+  <p>{text}</p>
+);
