@@ -68,6 +68,8 @@ import { HelloWorld } from 'react-components-typescript-npm-starter';
 
 ## Example
 
+<!-- TODO add example -->
+
 ## License
 
 This project is licensed under the MIT License © 2021-present Jakub Biesiada
