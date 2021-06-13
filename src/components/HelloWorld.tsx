@@ -1,5 +1,3 @@
-import React from 'react';
-
 export interface HelloWorldProps {
   readonly text?: string;
 }
