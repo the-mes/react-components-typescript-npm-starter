@@ -60,9 +60,9 @@ import { HelloWorld } from 'react-components-typescript-npm-starter';
 
 ### HelloWorld
 
-#### Available options
+#### Available Props
 
-| Param  | Type   | Description    | Default        |
+| Name   | Type   | Description    | Default        |
 | ------ | ------ | -------------- | -------------- |
 | `text` | string | Custom message | `Hello World!` |
 
