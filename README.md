@@ -20,7 +20,7 @@ Template for React TypeScript Component library
 - [Demo](#demo)
 - [How to Install](#how-to-install)
 - [Components](#components)
-  - [HelloWorld](#hello-world)
+  - [HelloWorld](#helloworld)
 - [Example](#example)
 
 ## Demo
