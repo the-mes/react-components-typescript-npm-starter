@@ -11,7 +11,7 @@
 
 Template for React TypeScript Component library
 
-### Alternatives
+### Similar Projects / Alternatives / Idea
 
 - [example](#) by [John Doe](#)
 - [example-2](#) by [Jane Doe](#)

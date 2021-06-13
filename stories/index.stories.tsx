@@ -1,5 +1,4 @@
 import { Meta, Story } from '@storybook/react';
-
 import { HelloWorld } from '../src';
 import { HelloWorldProps } from '../src/components/HelloWorld';
 
