@@ -2,7 +2,6 @@ src
 stories
 storybook-static
 .storybook
-.husky
 __tests__
 coverage
 tsconfig.json
